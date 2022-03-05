@@ -14,6 +14,25 @@
 }
 
 .why-us-card__name {
-    text-align: center;
-    margin-top: 30px;
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--background-color);
+}
+
+.why-us-card__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--detail-color);
 }
