@@ -113,6 +113,142 @@ img {
   margin: auto;
 }
 
+.header {
+  height: 60px;
+}
+
+.footer-things {
+  background-color: var(--footer-color);
+  text-align: center;
+}
+
+.logo--light {
+  color: var(--light);
+}
+
+.place {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  height: 21px;
+  display: inline-block;
+  margin-bottom: 9px;
+  letter-spacing: 0.03em;
+  color: var(--light);
+}
+
+.place:active {
+  text-decoration: underline;
+}
+
+.mail {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  height: 21px;
+  display: inline-block;
+  margin-bottom: 9px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.mail:active {
+  text-decoration: underline;
+}
+
+.telefon {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  height: 21px;
+  display: inline-block;
+  letter-spacing: 0.02em;
+  color: var(--detail-color);
+}
+
+.telefon:active {
+  text-decoration: underline;
+}
+
+.left-side {
+  text-align: center;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--accent);
+  text-decoration: none;
+  margin-right: 93px;
+  display: flex;
+  align-items: center;
+}
+
+.logo--dark {
+  color: var(--dark);
+}
+
+.follow-us {
+  display: flex;
+  align-items: center;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  color: var(--light);
+}
+
+.follow-us__list {
+  display: flex;
+  align-items: center;
+}
+
+.follow-us__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.follow-us__link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  fill: var(--light);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.follow-us__link:hover, .follow-us__link:focus {
+  fill: var(--light);
+  background-color: var(--accent);
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.follow-us__icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
 .label-footer {
   display: flex;
   flex-direction: column;
