@@ -1,6 +1,6 @@
 .follow-us {
   display: flex;
-  align-items: center;
+  justify-content: center;
   font-family: var(--main-font);
   font-style: normal;
   font-weight: bold;
@@ -8,11 +8,14 @@
   line-height: 1.142;
   letter-spacing: 0.03em;
   color: var(--light);
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .follow-us__list {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  padding-left: 0px;
 }
 
 .follow-us__item:not(:last-child) {
