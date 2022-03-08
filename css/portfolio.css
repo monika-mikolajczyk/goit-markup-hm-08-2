@@ -183,6 +183,7 @@ img {
 }
 
 .left-side {
+  display: flex;
   text-align: center;
 }
 
