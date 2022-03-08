@@ -716,6 +716,10 @@ img {
   color: var(--light);
 }
 
+.adress-footer-list {
+  padding-left: 0px;
+}
+
 .place {
   text-decoration: none;
   font-family: "Roboto";
@@ -771,5 +775,13 @@ img {
 
 .left-side {
   text-align: center;
+}
+
+.btn-newsletter {
+  justify-content: center;
+}
+
+.form-footer {
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */
