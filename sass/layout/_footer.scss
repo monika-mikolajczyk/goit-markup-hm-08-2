@@ -65,13 +65,23 @@
 
 .left-side {
   display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  align-items: center;
+}
+
+.adress-footer {
+  padding-top: 20px;
   text-align: center;
 }
 
 .btn-newsletter {
-  justify-content: center;
+  display: flex;
+  width: 200px;
 }
 
 .form-footer {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }

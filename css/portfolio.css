@@ -115,6 +115,7 @@ img {
 
 .header {
   height: 60px;
+  display: flex;
 }
 
 .footer-things {
@@ -184,15 +185,25 @@ img {
 
 .left-side {
   display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  align-items: center;
+}
+
+.adress-footer {
+  padding-top: 20px;
   text-align: center;
 }
 
 .btn-newsletter {
-  justify-content: center;
+  display: flex;
+  width: 200px;
 }
 
 .form-footer {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo {
@@ -205,7 +216,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--accent);
   text-decoration: none;
-  margin-right: 93px;
   display: flex;
   align-items: center;
 }
@@ -328,7 +338,7 @@ img {
   font-family: Roboto;
   cursor: pointer;
   border: 0;
-  padding: 10px 47px;
+  padding: 10px 30px;
   background: var(--accent);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
